@@ -91,4 +91,3 @@ def parsing(product: str):
                 page += 1
             else:
                 break
-            
