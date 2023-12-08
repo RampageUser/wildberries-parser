@@ -1,13 +1,10 @@
 from sys import argv
-import parser
+import settings
 
 
 def main() -> None:
-    parser.create_csv()
-    space: str = '%20'
-    product: str = space.join(argv[1:])
-    parser.parsing(product=product)
-        
+    product: list[str] = argv[1:]
+    settings.parsing(product=product)
 
 
 if __name__ == '__main__':
