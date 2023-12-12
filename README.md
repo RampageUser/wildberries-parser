@@ -39,7 +39,9 @@ wildberries.py some items
 
 ## To do
 - [x] Добавить крутое README
-- [ ] Тесты
+- [ ] JSON
+- [ ] Dockerfile
+- [ ] Pytest
 
 ## Разработчик
 
